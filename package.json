@@ -1,0 +1,15 @@
+{
+  "name": "SecondStep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/harmxnic/SecondStep.git",
+  "author": "zolot <zolotomira163@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pug": "^3.0.0",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10"
+  }
+}

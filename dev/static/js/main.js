@@ -1,3 +1,5 @@
+import '../styles/styles.scss';
+
 $(document).ready(function () {
     svg4everybody({});
 });
