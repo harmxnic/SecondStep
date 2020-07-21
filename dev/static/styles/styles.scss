@@ -1,27 +1,34 @@
 @import "fonts";
 @import "substyles/colors";
+@import "substyles/header";
+@import "substyles/buttons";
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font-family: 'Montserrat-Regular';
+  font-family: 'Montserrat-Regular', sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: $dark-shade75;
 }
 
 h1 {
-  font-family: 'Quicksand-Bold';
+  font-family: 'Quicksand-Bold', sans-serif;
   font-size: 24px;
   line-height: 30px;
 }
 
 h2 {
-  font-family: 'Quicksand-Bold';
+  font-family: 'Quicksand-Bold', sans-serif;
   font-size: 19px;
   line-height: 24px;
 }
 
 h3 {
-  font-family: 'Montserrat-Bold';
+  font-family: 'Montserrat-Bold', sans-serif;
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
@@ -31,4 +38,7 @@ h1, h2, h3 {
   color: $dark-shade100;
 }
 
-
+.container {
+  margin: 0 auto;
+  width: 1160px;
+}
