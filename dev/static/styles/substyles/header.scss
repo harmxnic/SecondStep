@@ -15,10 +15,15 @@
 
   &-nav {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     &__list {
       display: flex;
     }
+
+    //.angle {
+    //  width: 18px;
+    //  height: 18px;
+    //}
 
     &__item {
       margin-right: 20px;
@@ -32,8 +37,6 @@
     }
     &__link:active {
       font-family: 'Montserrat-Bold', sans-serif;
-      font-size: 14px;
-      line-height: 17px;
       color: $dark-shade75;
     }
 
@@ -47,5 +50,7 @@
       }
     }
   }
+
+
 
 }
