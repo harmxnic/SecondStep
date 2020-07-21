@@ -1,0 +1,51 @@
+.header {
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    .logo {
+      width: 106px;
+      height: 40px;
+      margin: 15px 0;
+    }
+  }
+
+  &-nav {
+    display: flex;
+    align-items: center;
+    &__list {
+      display: flex;
+    }
+
+    &__item {
+      margin-right: 20px;
+      list-style-type: none;
+      line-height: 17px;
+    }
+
+    &__link {
+      text-decoration: none;
+      color: $dark-shade50;
+    }
+    &__link:active {
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 14px;
+      line-height: 17px;
+      color: $dark-shade75;
+    }
+
+    .header__sign {
+
+      &-in {
+        margin-right: 20px;
+      }
+      &-up {
+
+      }
+    }
+  }
+
+}

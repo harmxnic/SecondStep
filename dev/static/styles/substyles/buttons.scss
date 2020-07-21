@@ -1,0 +1,21 @@
+.btn {
+  padding: 10px 20px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.btn__empty {
+  background-color: #fff;
+  border: 2px solid $purple;
+  &-text {
+    color: $purple;
+  }
+}
+
+.btn__full {
+  background: linear-gradient(180deg, $purple 0%, #8BA4F9 100%);
+  border: none;
+  &-text {
+    color: #fff;
+  }
+}
