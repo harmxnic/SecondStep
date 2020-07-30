@@ -2,6 +2,8 @@
 @import "substyles/colors";
 @import "substyles/header";
 @import "substyles/buttons";
+@import "substyles/checkSection";
+@import "substyles/searchBox";
 
 body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
   margin: 0;
@@ -17,7 +19,7 @@ body {
 
 h1 {
   font-family: 'Quicksand-Bold', sans-serif;
-  font-size: 24px;
+  font-size: 25px;
   line-height: 30px;
 }
 
